@@ -1,3 +1,6 @@
-This is a TODO App List
+# This is a TODO App List
 
-- Description to follow
+#### A Web App that helps orginize and list tasks or items in list form
+
+
+
