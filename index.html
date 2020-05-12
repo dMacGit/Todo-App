@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css"> 
+        <link rel="import" href="/static/views/header.html">
+        <title>Todo App</title>
+       
+    </head>
+    <body>
+        <header>
+            <nav>
+                
+                <a href="#">Menu</a>
+                <a href="#">Help</a>
+                <a href="#">About</a>
+                
+            </nav>
+        </header>
+        <section>
+            <div id="list-header">
+            </div>
+            <div id="list-actions" class="action-Panel">
+            </div>
+            <div id="list-div" class="list-container">
+                
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <script src="/scripts/db.js"></script>
+        <script src="/scripts/cache.js"></script>
+        <script src="/scripts/init.js"></script>
+        <script src="/scripts/list-actions.js"></script>
+        <script src="/scripts/templates.js"></script>
+        <script type="text/javascript">            
+            load_Templates();
+            load_Listeners();
+        </script>
+    </body>
+    
+    
+</html>

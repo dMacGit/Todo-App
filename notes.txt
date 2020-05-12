@@ -1,0 +1,55 @@
+Web Application processes:
+
+- Initialization
+    Check local DB for 'Users' Lists.
+    Create Lists and items bases on user db data.
+    Cache to local Array?!?!? (Don't think this will be required) Duplication of code for no reason. DB lookup should be fast as is local to browser.
+    Add action listeners for list item, buttons. [Require using List & item ID's]
+
+- Update Action
+    Add/Rmove/Modify item in some way
+    Update data with DB
+    Update Action Listeners etc.
+
+================
+
+DB Configuration.
+
+- DB for each 'User'
+- Table for each List's meta-data
+    Contain List info:
+        + Name of List
+        + Number of Items
+        + Creation Date of List
+        + Last Updated/Modify Date and Time
+- Seperate Table for List-Data
+    Rows in table are Items.
+    Items contain,
+        + Item dbID (Relative to it's List [Start from id = 001])
+        + Item current state. (Modify/Saved)
+        + Item Description
+        + Item Prioroty
+        + Item Creation Date + Time
+        + Item Last Modify Date + Time
+
+
+****** UPDATE *****
+
+Project has drifted from the above specs.
+
+Need to make stable then audit code etc, And match against spec!
+
+db {
+
+    0 = [ data1=abc, data2=abcd, Item=1],
+    1 = [ ... ... , Item=2],
+    2 = ....
+
+}
+
+cacheArray = [
+    0 = [Item 1]
+    1 = [Item 2]
+
+]
+
