@@ -2,6 +2,8 @@
 
 _A very basic TODO application that saves notes to a DB_
 
+## **This is a Skeleton Readme and is not complete!!**
+
 ![Build Status](https://github.com/dMacGit/[repo-name]/actions/workflows/main.yml/badge.svg?branch=main) 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/netlifyapp]/deploy-status)](https://app.netlify.com/sites/netlifyapp/deploys)
 
